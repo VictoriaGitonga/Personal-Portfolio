@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Quadrants Example</title>
+    <style>
+        /* Optional: Add some basic styling */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+
+        .quadrant {
+            width: 150%;
+            height: 150%;
+            position:relative;
+        }
+
+        .quadrant1 { top: 80%; left: 80%; background-color: #3498db; }
+        .quadrant2 { top: 80%; left: 130%; background-color: #e74c3c; }
+        .quadrant3 { top: 130%; left: 80%; background-color: #2ecc71; }
+        .quadrant4 { top: 130%; left: 130%; background-color: #f39c12; }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="quadrant quadrant1">
+        <div class="content">Quadrant 1</div>
+    </div>
+    <div class="quadrant quadrant2">
+        <div class="content">Quadrant 2</div>
+    </div>
+    <div class="quadrant quadrant3">
+        <div class="content">Quadrant 3</div>
+    </div>
+    <div class="quadrant quadrant4">
+        <div class="content">Quadrant 4</div>
+    </div>
+</div>
+
+</body>
+</html>
