@@ -1,4 +1,4 @@
-# Personal-Portfolio
+# Personal-Portfolio - html
 
 Welcome to my Personal Portfolio repository! This project serves as an online showcase of my skills, projects, and experiences. Feel free to explore and learn more about me.
 
