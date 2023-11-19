@@ -23,6 +23,11 @@ This Personal Portfolio is designed to present my professional profile, includin
 - **contact.html:** Contact page.
 - **style.css/:** Stylesheets.
 - **img/:** Images.
+
+## Adding styling to css
+- Made it more appealing
+- Added 8-point grid system on paddings and margins 
+- Added responsivenes depending on screen size
   
 
 ## Technologies Used
