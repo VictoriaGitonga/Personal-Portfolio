@@ -28,6 +28,13 @@ This Personal Portfolio is designed to present my professional profile, includin
 - Made it more appealing
 - Added 8-point grid system on paddings and margins 
 - Added responsivenes depending on screen size
+
+## Additions
+- Added hire me, download cv buttons
+- Added an embed video
+- Added footer
+- Customized css section; responsive on both mobile phones and tablets
+- Added JavaScript file
   
 
 ## Technologies Used
