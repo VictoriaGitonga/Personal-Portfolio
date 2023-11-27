@@ -21,7 +21,10 @@ nav {
 nav a {
     color: #eca8ec;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 2px;
 }
 
 .container {
@@ -30,6 +33,7 @@ nav a {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 h1 {
@@ -67,7 +71,7 @@ input, textarea {
 button {
     background-color: #333;
     color: #fff;
-    padding: 10px 15px;
+    padding: 8px 16px 8px 16px;
     border: none;
     cursor: pointer;
 }
@@ -78,5 +82,52 @@ button:hover {
 
  img{
     float: left;
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
  }
+
+ @media screen and (max-width: 800px) {
+    .container{
+        width: 100%; /* Occupy 100% on smaller screens */
+        margin: 0;   /*Remove margin on smaller screens */
+    }
+    
+ }
+
+ footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+iframe{
+    float: left;
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
  
+/* a{
+    padding: 16px 35px;
+    text-decoration: none;
+    border: #eca8ec;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    position: absolute;
+    margin: 10% 35%;
+    
+} */
+/* a:hover{
+    background-color: #eca8ec;
+} */
+ 
+.text{
+    display: flex;
+}
