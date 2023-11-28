@@ -1,4 +1,4 @@
-# Personal-Portfolio
+# Personal-Portfolio - html
 
 Welcome to my Personal Portfolio repository! This project serves as an online showcase of my skills, projects, and experiences. Feel free to explore and learn more about me.
 
@@ -23,6 +23,18 @@ This Personal Portfolio is designed to present my professional profile, includin
 - **contact.html:** Contact page.
 - **style.css/:** Stylesheets.
 - **img/:** Images.
+
+## Adding styling to css
+- Made it more appealing
+- Added 8-point grid system on paddings and margins 
+- Added responsivenes depending on screen size
+
+## Additions
+- Added hire me, download cv buttons
+- Added an embed video
+- Added footer
+- Customized css section; responsive on both mobile phones and tablets
+- Added JavaScript file
   
 
 ## Technologies Used
